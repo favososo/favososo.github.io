@@ -14345,43 +14345,6 @@ ul.slides li.slide {
     padding: 10px 40px !important
 }
 
-.strikingly-slideshare-container {
-    height: 0;
-    padding-bottom: 75%;
-    position: relative
-}
-
-.strikingly-slideshare-container iframe {
-    border: solid #ccc;
-    border-width: 1px 1px 0;
-    height: 100%;
-    left: 0;
-    margin-bottom: 5px;
-    max-width: 100%;
-    position: absolute;
-    width: 100%
-}
-
-.strikingly-locu-container {
-    background: #fff;
-    padding: 30px
-}
-
-.strikingly-facebookcomments-container {
-    background: #fff;
-    padding: 10px
-}
-
-.strikingly-google-calendar-container {
-    text-align: center
-}
-
-.strikingly-google-calendar-container iframe {
-    display: inline-block;
-    min-width: 100%;
-    width: 1px
-}
-
 .s-component.s-social-media ul.s-social-media-buttons {
     margin-left: -3px;
     margin-right: -3px
