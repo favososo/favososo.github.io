@@ -19,13 +19,14 @@
     <meta content="A motivation, responsible and creative Telecom graduate, good at coding with C, C++, Java, Android Java, python.&#x000A;&#x000A;I am familiar with 3GPP protocol (LTE, 5GNR)."
           property="og:description">
 
+    <link href='images/obi.jpg' rel='shortcut icon' type='image/x-icon'>
     <link rel="stylesheet" media="screen" href="styles/tagStyles.css" as="style"/>
     <link rel="stylesheet" media="screen" href="styles/fontStyles.css"/>
     <link rel="stylesheet" media="screen" href="styles/structure.css" as="style"/>
-    <link href="//////" rel="apple-touch-icon" sizes="60x60">
-    <link href="//////" rel="apple-touch-icon" sizes="76x76">
-    <link href="//////" rel="apple-touch-icon" sizes="120x120">
-    <link href="//////" rel="apple-touch-icon" sizes="152x152">
+    <link href="images/obi.jpg" rel="apple-touch-icon" sizes="60x60">
+    <link href="images/obi.jpg" rel="apple-touch-icon" sizes="76x76">
+    <link href="images/obi.jpg" rel="apple-touch-icon" sizes="120x120">
+    <link href="images/obi.jpg" rel="apple-touch-icon" sizes="152x152">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js">
     </script>
@@ -39,7 +40,7 @@
                  class="s-variation-green"
                  lang="en">
                 <div class="update-date" style="position: absolute; bottom: 0"><p>© 2020-04</p></div>
-                <div class="navigator s-navbar-section" style="width: 15%">
+                <div class="navigator s-navbar-section">
                     <div class="nav-container">
                         <div class="logo">
                             <div class="s-component s-image">
@@ -62,25 +63,61 @@
                         </div>
                         <div class="intro">
                             <div class="s-component s-text">
-                                <div class="s-component-content s-font-body"><p>A motivation, responsible and creative
-                                    Telecom graduate
-                                    , good at coding with C, C++, Java, Android Java, python.</p>
-                                    <p>Also
-                                        familiar with 3GPP protocol (LTE, 5GNR).</p></div>
+                                <div class="s-component-content s-font-body">
+                                    <p>A motivated, responsible and creative Telecom graduate, specializing in 3GPP
+                                        protocol (LTE, 5GNR) and talented in C, C++, Java, Android Java, python.</p>
+                                </div>
                             </div>
                         </div>
                         <div class="scroll">
                             <ul class="ib items s-nav">
                                 <li><a class="s-font-body s-nav-item" href="#home">Home</a></li>
                                 <li><a class="s-font-body s-nav-item" href="#skills">Skills</a></li>
-                                <li><a class="s-font-body s-nav-item" href="#professional-experience">Employment
+                                <li><a class="s-font-body s-nav-item" href="#professional-experience">Professional
                                     Experience</a></li>
                                 <li><a class="s-font-body s-nav-item" href="#education">Education</a></li>
-                                <li><a class="s-font-body s-nav-item" href="#reference">Reference</a></li>
-                                <li><a class="s-font-body s-nav-item" href="#contact-info">My own Contact info.</a></li>
+                                <li><a class="s-font-body s-nav-item" href="#reference">References</a></li>
+                                <li><a class="s-font-body s-nav-item" href="#contact-info">Contact</a></li>
                             </ul>
                             <br/>
                         </div>
+                    </div>
+                </div>
+                <div class="s-navbar-container">
+                    <div class="navbar-drawer-bar">
+                        <div class="drawer-container"><a class="navbar" href="javascript:void(0);">
+                            <div class="navbar-icons"><span></span><span></span><span></span></div>
+                        </a>
+                            <!-- -->
+                            <div class="mobile-cart-icon" id="s-mobile-shopping-cart-new"></div>
+                            <div class="navbar-drawer-title-container"></div>
+                        </div>
+                    </div>
+                    <div id="navbar-drawer-mask"></div>
+                    <div class="navbar-drawer strikingly-drawer bottom-border">
+                        <ul id="nav-drawer-list">
+                            <span><li><a class="navbar-drawer-item s-font-body" href="#home">Home</a></li></span>
+                            <span><li><a class="navbar-drawer-item s-font-body" href="#skills">Skills</a></li></span>
+                            <span><li><a class="navbar-drawer-item s-font-body" href="#professional-experience">Professional
+                                    Experience</a></li></span>
+                            <span><li><a class="navbar-drawer-item s-font-body"
+                                         href="#education">Education</a></li></span>
+                            <span><li><a class="navbar-drawer-item s-font-body"
+                                         href="#reference">Reference</a></li></span>
+                            <span><li><a class="navbar-drawer-item s-font-body"
+                                         href="#contact-info">Contact info.</a></li></span>
+                            <li id="mobileLoginDropdown"></li>
+                            <li id="mobileLangSwitcher"></li>
+                            <li class="logo"><a class="logo"
+                                                href="images/obi.jpg"
+                                                target="_blank">
+                                <div class="msg">Powered By</div>
+                                <img src="https://static-assets.strikinglycdn.com/images/logo-small-2.png"
+                                     style="height:28px" alt="Strikingly"/></a></li>
+                        </ul>
+                    </div>
+                    <div class="mobile-actions">
+                        <ul id="mobile-action-list"></ul>
                     </div>
                 </div>
                 <div>
@@ -438,13 +475,15 @@
                                             <div class="s-title-group  ">
                                                 <div class="s-title ">
                                                     <div class="s-component s-text">
-                                                        <h2 class="s-component-content s-font-title"><p>ASUS</p></h2>
+                                                        <h2 class="s-component-content s-font-title"><p>Professional
+                                                            Experience</p></h2>
                                                     </div>
                                                 </div>
                                                 <div class="s-subtitle">
                                                     <div class="s-component s-text">
-                                                        <h4 class="s-component-content s-font-heading"><p>Communication
-                                                            R&amp;D Engineer</p>
+                                                        <h4 class="s-component-content s-font-heading"><p>ASUS
+                                                            (Communication
+                                                            R&amp;D Engineer)</p>
                                                             <p>Period: 2016-10 ~ 2020</p></h4>
                                                     </div>
                                                 </div>
@@ -716,12 +755,15 @@
                                                                     <div class="s-item-text">
                                                                         <div class="s-component s-text">
                                                                             <div class="s-component-content s-font-body">
-                                                                                <p>Study 3GPP 4G&amp;5GNR Protocol and provide
-                                                                                    protocol knowledge support for team member.
+                                                                                <p>Study 3GPP 4G&amp;5GNR Protocol and
+                                                                                    provide
+                                                                                    protocol knowledge support for team
+                                                                                    member.
                                                                                 </p>
                                                                                 <br>
                                                                                 <p style=" color: #55acee; font-style: italic;">
-                                                                                    Professional reference:3GPP 4G/5GNR protocol.</p>
+                                                                                    Professional reference:3GPP 4G/5GNR
+                                                                                    protocol.</p>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -777,7 +819,8 @@
                                                                                         <div style="padding-bottom:80%"></div>
                                                                                         <div>
                                                                                             <img src="images/ncu.png"
-                                                                                                 width="225" height="225"
+                                                                                                 width="225"
+                                                                                                 height="225"
                                                                                                  alt="ncu">
                                                                                         </div>
                                                                                     </div>
@@ -801,8 +844,10 @@
                                                                     <div class="s-item-text">
                                                                         <div class="s-component s-text">
                                                                             <div class="s-component-content s-font-body">
-                                                                                <p>Communication Engineering, 2014-2016</p>
-                                                                                <p>GPA : 4, in the top of 8.51% of the class.</p>
+                                                                                <p>Communication Engineering,
+                                                                                    2014-2016</p>
+                                                                                <p>GPA : 4, in the top of 8.51% of the
+                                                                                    class.</p>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -823,7 +868,8 @@
                                                                     <div class="s-item-text">
                                                                         <div class="s-component s-text">
                                                                             <div class="s-component-content s-font-body">
-                                                                                <p>Communication Engineering, 2012-2014</p>
+                                                                                <p>Communication Engineering,
+                                                                                    2012-2014</p>
                                                                                 <p>GPA : 3.67</p>
                                                                             </div>
                                                                         </div>
@@ -873,7 +919,7 @@
                                                 <div class="s-title">
                                                     <div class="s-component s-text">
                                                         <h2 class="s-component-content s-font-title"><p>
-                                                            Reference</p></h2>
+                                                            References</p></h2>
                                                     </div>
                                                 </div>
                                             </div>
@@ -897,7 +943,7 @@
                                                                     <div class="s-item-text">
                                                                         <div class="s-component s-text">
                                                                             <div class="s-component-content s-font-body">
-                                                                                <p>Titan_Fan@asus.com</p>
+                                                                                <p>Titan_Fan(at)asus(dot)com</p>
                                                                                 <p>02-28943447 #26586</p>
                                                                             </div>
                                                                         </div>
@@ -917,7 +963,7 @@
                                                                     <div class="s-item-text">
                                                                         <div class="s-component s-text">
                                                                             <div class="s-component-content s-font-body">
-                                                                                <p>Rischard_Su@asus.com</p>
+                                                                                <p>Rischard_Su(at)asus(dot)com</p>
                                                                                 <p>02-28943447 #21744</p>
                                                                             </div>
                                                                         </div>
@@ -961,7 +1007,7 @@
                                                                     <div class="s-item-title">
                                                                         <div class="s-component s-text">
                                                                             <h3 class="s-component-content s-font-heading">
-                                                                                <p>Mail</p></h3>
+                                                                                <p>E-mail</p></h3>
                                                                         </div>
                                                                     </div>
                                                                     <div class="s-item-subtitle">
@@ -970,7 +1016,7 @@
                                                                     <div class="s-item-text">
                                                                         <div class="s-component s-text">
                                                                             <div class="s-component-content s-font-body">
-                                                                                <p>favososo@gmail.com</p>
+                                                                                <p>favososo(at)gmail(dot)com</p>
                                                                             </div>
                                                                         </div>
                                                                     </div>
